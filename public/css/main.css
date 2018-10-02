@@ -1,0 +1,471 @@
+/* ------------------------- *\
+	Margins
+\* ------------------------- */
+
+.m-0 {
+	margin: 0px;
+}
+
+.m-2 {
+	margin: 2px;
+}
+
+.m-4 {
+	margin: 4px;
+}
+
+.m-8 {
+	margin: 8px;
+}
+
+.m-16 {
+	margin: 16px;
+}
+
+.m-32 {
+	margin: 32px;
+}
+
+.m-64 {
+	margin: 64px;
+}
+
+.m-128 {
+	margin: 128px;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.mt-2 {
+	margin-top: 2px;
+}
+
+.mt-4 {
+	margin-top: 4px;
+}
+
+.mt-8 {
+	margin-top: 8px;
+}
+
+.mt-16 {
+	margin-top: 16px;
+}
+
+.mt-32 {
+	margin-top: 32px;
+}
+
+.mt-64 {
+	margin-top: 64px;
+}
+
+.mt-128 {
+	margin-top: 128px;
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.mb-2 {
+	margin-bottom: 2px;
+}
+
+.mb-4 {
+	margin-bottom: 4px;
+}
+
+.mb-8 {
+	margin-bottom: 8px;
+}
+
+.mb-16 {
+	margin-bottom: 16px;
+}
+
+.mb-32 {
+	margin-bottom: 32px;
+}
+
+.mb-64 {
+	margin-bottom: 64px;
+}
+
+.mb-128 {
+	margin-bottom: 128px;
+}
+
+/* ------------------------- *\
+	Padding
+\* ------------------------- */
+
+.p-0 {
+	padding: 0px;
+}
+
+.p-2 {
+	padding: 2px;
+}
+
+.p-4 {
+	padding: 4px;
+}
+
+.p-8 {
+	padding: 8px;
+}
+
+.p-16 {
+	padding: 16px;
+}
+
+.p-32 {
+	padding: 32px;
+}
+
+.p-64 {
+	padding: 64px;
+}
+
+.pb-0 {
+	padding-bottom: 0px;
+}
+
+.pb-2 {
+	padding-bottom: 2px;
+}
+
+.pb-4 {
+	padding-bottom: 4px;
+}
+
+.pb-8 {
+	padding-bottom: 8px;
+}
+
+.pb-16 {
+	padding-bottom: 16px;
+}
+
+.pb-32 {
+	padding-bottom: 32px;
+}
+
+.pb-64 {
+	padding-bottom: 64px;
+}
+
+.pt-0 {
+	padding-top: 0px;
+}
+
+.pt-2 {
+	padding-top: 2px;
+}
+
+.pt-4 {
+	padding-top: 4px;
+}
+
+.pt-8 {
+	padding-top: 8px;
+}
+
+.pt-16 {
+	padding-top: 16px;
+}
+
+.pt-32 {
+	padding-top: 32px;
+}
+
+.pt-64 {
+	padding-top: 64px;
+}
+
+/* ------------------------- *\
+	Bootstrap Overrides
+\* ------------------------- */
+
+.well {
+	background-color: #EFEFEF;
+	padding: 32px;
+	border-radius: 8px;
+	border-bottom: 2px solid #CFCFCF;
+}
+
+/* ------------------------- *\
+	Colors
+\* ------------------------- */
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+
+/* ------------------------- *\
+	Buttons
+\* ------------------------- */
+
+.center-button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+/* ------------------------- *\
+	Input
+\* ------------------------- */
+
+input[type=text], input[type=email], input[type=tel], input[type=date] {
+	padding: 12px;
+	height: 48px;
+}
+
+/* ------------------------- *\
+	Special Divs
+\* ------------------------- */
+
+.template-box {
+	border-bottom: 3px solid #CFCFCF;
+	border-radius: 8px;
+	background-color: white;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.template-box:hover {
+	cursor: pointer;
+	background-color: #F4F4F4;
+}
+
+.template-box > .template-box-info {
+	padding: 16px;
+}
+
+.template-box > .template-box-info > hr {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.template-box > .template-box-info > p {
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+.template-box > .template-box-image > img {
+	width: 100%;
+	height: auto;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.addon-box {
+	border-bottom: 3px solid #CFCFCF;
+	border-radius: 8px;
+	background-color: white;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+}
+
+.addon-box:hover {
+	cursor: pointer;
+	background-color: #F4F4F4;
+}
+
+.addon-box > .addon-image > img {
+	width: 100%;
+	height: auto;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.addon-box > .addon-description {
+	padding: 16px;
+}
+
+.addon-box > .addon-description > hr {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.addon-box > .addon-description > #price {
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+.feature-box {
+	padding: 16px;
+	border: 2px solid #ECECEC;
+}
+
+.feature-box > h3 {
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+
+.feature-box > p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 0px;
+}
+
+.feature-box > i {
+	font-size: 64px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.blog-box {
+	background-color: white;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+
+}
+
+.blog-box:hover {
+	cursor: pointer;
+	background-color: #FAFAFA;
+	-webkit-box-shadow: 0px 4px 63px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 63px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 63px -15px rgba(0,0,0,0.75);
+}
+
+.blog-box > .blog-image > img {
+	width: 100%;
+	height: auto;
+}
+
+.blog-box > .blog-info {
+	padding: 16px;
+}
+
+.blog-box > .blog-info > h3 {
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+
+.blog-box > .blog-info > p {
+	margin-bottom: 0px;
+}
+
+#banner-home {
+	height: 300px; 
+	background-size:cover;
+	background-position: center center;
+	background-attachment:fixed;
+}
+
+#page_header {
+	margin-bottom: 128px;
+}
+
+/* ------------------------- *\
+	Structure
+\* ------------------------- */
+
+.text-center {
+	text-align: center;
+}
+
+.parent {
+	position: relative;
+}
+
+.child {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* ------------------------- *\
+	Images
+\* ------------------------- */
+
+.regular-image {
+	width: 100%;
+	height: auto;
+}
+
+.half-image {
+	width: 50%;
+	height: auto;
+}
+
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.light-border-img {
+	border-radius: 5px;
+}
+
+.medium-border-img {
+	border-radius: 10px;
+}
+
+.heavy-border-img {
+	border-radius: 15px;
+}
+
+/* ------------------------- *\
+	Videos
+\* ------------------------- */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* ------------------------- *\
+	Media Queries
+\* ------------------------- */
+
+@media only screen and (max-width : 480px) {
+	#banner-home {
+		height: 200px;
+	}
+
+	#page_header {
+		margin-bottom: 350px;
+	}
+
+	.au-btn {
+		margin-bottom: 32px;
+	}
+
+	.header-desktop {
+		display: none;
+	}
+
+	#admin_footer {
+		margin-bottom: 64px;
+	}
+}	
