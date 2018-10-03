@@ -7,35 +7,63 @@
 			</button>
 
 			<div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+				@if(Auth::guest())
 				<ul class="navbar-nav mx-auto">
 					<li class="nav-item">
-						<a class="nav-link active" href="index.html">Home</a>
+						<a class="nav-link" href="{{ url('/') }}">Home</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="courses.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
+						<a class="nav-link dropdown-toggle" href="{{ url('/tools') }}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown04">
-							<a class="dropdown-item" href="courses.html">HTML</a>
-							<a class="dropdown-item" href="courses.html">WordPress</a>
-							<a class="dropdown-item" href="courses.html">Web Development</a>
-							<a class="dropdown-item" href="courses.html">Javascript</a>
-							<a class="dropdown-item" href="courses.html">Photoshop</a>
+							<a class="dropdown-item">Coming Soon</a>
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="blog.html">Tips and Hacks</a>
+						<a class="nav-link" href="{{ url('/blog') }}">Growth Tips</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
+						<a class="nav-link" href="{{ url('/contact') }}">Contact</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav absolute-right">
 					<li class="nav-item">
-						<a href="login.html" class="nav-link">Login</a>
+						<a href="{{ url('/login') }}" class="nav-link">Login</a>
 					</li>
 					<li class="nav-item">
-						<a href="register.html" class="nav-link">Register</a>
+						<a href="{{ url('/register') }}" class="nav-link">Register</a>
 					</li>
 				</ul>
+				@else
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url('/') }}">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="{{ url('/tools') }}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item">Coming Soon</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="{{ url('/my-apps') }}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Apps</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item">Coming Soon</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url('/blog') }}">Growth Tips</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav absolute-right">
+					<li class="nav-item">
+						<a href="{{ url('/login') }}" class="nav-link">Logout</a>
+					</li>
+				</ul>
+				@endif
 			</div>
 		</div>
 	</nav>
