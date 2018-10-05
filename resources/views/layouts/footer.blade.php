@@ -1,4 +1,4 @@
-<footer class="site-footer" style="background-image: url(images/big_image_3.jpg);">
+<footer class="site-footer" style="background-image: url({{ URL::asset('images/big_image_3.jpg') }});">
 	<div class="container">
 		<div class="row mb-5">
 			<div class="col-md-4">

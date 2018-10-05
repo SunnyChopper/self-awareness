@@ -27,10 +27,10 @@
 				</ul>
 				<ul class="navbar-nav absolute-right">
 					<li class="nav-item">
-						<a href="{{ url('/login') }}" class="nav-link">Login</a>
+						<a href="{{ url('/members/login') }}" class="nav-link">Login</a>
 					</li>
 					<li class="nav-item">
-						<a href="{{ url('/register') }}" class="nav-link">Register</a>
+						<a href="{{ url('/members/register') }}" class="nav-link">Register</a>
 					</li>
 				</ul>
 				@else

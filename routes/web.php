@@ -11,7 +11,13 @@
 |
 */
 
+// Public site
 Route::get('/', 'PublicController@index');
-Auth::routes();
+Route::get('/members/login', 'PublicController@login');
+Route::get('/members/register', 'PublicController@register');
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Members site
+Route::get('/dashboard/', 'MembersController@index');
+
+// Auth
+Auth::routes();

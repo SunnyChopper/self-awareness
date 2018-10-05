@@ -252,8 +252,8 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-hero-innerpage, .site-hero-innerpage .site-hero-inner {
-  min-height: 550px;
-  height: 50vh;
+  min-height: 250px;
+  height: 300px;
 }
 
 .site-section {
